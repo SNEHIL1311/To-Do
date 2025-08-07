@@ -1,0 +1,153 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffffff, #4c4cd2);
+  color: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
+}
+
+/* Main Container */
+.container {
+  width: 90%;
+  max-width: 500px;
+  
+}
+
+/* Header Section */
+.header {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+.header p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Card Style */
+.card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+/* Card Heading */
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Input Section styling */
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.input-section button {
+  padding: 12px 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Task List Styels.... */
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Task Text... */
+.task-text {
+  flex: 1;
+  font-size: 16px;
+  color: #333;
+}
+
+.task-text.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.action-buttons button {
+  border: none;
+  padding: 6px 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.complete-btn {
+  background-color: #d8e9fd;
+  color: white;
+}
+
+.complete-btn:hover {
+  background-color: #a39eab;
+}
+
+.delete-btn {
+  background-color: #d8e9fd;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #a39eab;
+}
